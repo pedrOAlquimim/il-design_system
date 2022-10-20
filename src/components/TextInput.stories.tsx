@@ -6,14 +6,12 @@ export default {
   title: 'Components/TextInput',
   component: TextInput.Root,
   args: {
-    children: (
-      <>
+    children: [
         <TextInput.Icon>
            <Envelope />
-        </TextInput.Icon>
+        </TextInput.Icon>,
         <TextInput.Input placeholder="johndoe@exemple.com" />
-      </>
-    ),
+    ],
   },
   argTypes: {
     children: {
